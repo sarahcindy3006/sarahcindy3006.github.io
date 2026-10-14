@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sarah Cindralla Sheen | Portfolio</title>
+<meta name="description" content="Portfolio of Sarah Cindralla Sheen, final-year B.C.A. student building AI-powered apps end to end.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="bar"><div class="wrap">
+  <a class="brand" href="#top">Sarah Cindralla Sheen</a>
+  <nav aria-label="Sections"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Leadership</a><a href="#recognition">Awards</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<section class="wrap hero">
+  <div>
+    <h1>Sarah Cindralla Sheen</h1>
+    <p class="lead">Final-year B.C.A. student who builds AI-powered apps end to end, from the mobile screen to the API behind it.</p>
+    <div class="cta">
+      <a class="btn solid" href="mailto:sarahcindy3006@gmail.com">Email me</a>
+      <a class="btn line" href="https://github.com/sarahcindy3006" rel="noopener">GitHub</a>
+      <a class="btn line" href="https://linkedin.com/in/sarah-cindralla-sheen" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+  <div class="portrait"><img src="assets/sarah.jpg" width="860" height="899" alt="Portrait of Sarah Cindralla Sheen, smiling, wearing glasses and a light blue embroidered kurta"></div>
+</section>
+
+<section class="wrap sec" id="about">
+  <h2>About</h2>
+  <div class="prose">
+    <p>I study Computer Applications at Stella Maris College (Autonomous) in Chennai and graduate this year with a CGPA of 9.0 out of 10. My foundation is in Java, Python, C, HTML and CSS, and I have built web apps, databases, mobile apps and API integrations.</p>
+    <p>I like projects where AI takes the boring part of a task away, such as turning a photo of a shop's sales ledger into clean records. I bring strong analytical and problem-solving skills and I am looking for a software role where I can ship things people use.</p>
+    <ul class="facts">
+      <li><b>B.C.A., final year</b><span>Stella Maris College (Autonomous), Chennai. CGPA 9.0 / 10</span></li>
+      <li><b>Schooling</b><span>HSC, Geethanjali Vidyalaya, Bengaluru. SSLC, Fusco's School (ICSE), Bengaluru</span></li>
+      <li><b>Languages spoken</b><span>English, Tamil, Hindi, Kannada</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap sec" id="skills">
+  <h2>Skills</h2>
+  <dl class="skills">
+    <div><dt>Languages</dt><dd>Java, Python, C, JavaScript</dd></div>
+    <div><dt>Web</dt><dd>HTML, CSS, React, Node.js</dd></div>
+    <div><dt>Databases</dt><dd>PostgreSQL, MySQL Lite</dd></div>
+    <div><dt>AI and cloud</dt><dd>Gemini API, Google Cloud Vision (OCR), Speech-to-Text, Supabase</dd></div>
+    <div><dt>Tools</dt><dd>Firebase, Git, GitHub</dd></div>
+  </dl>
+</section>
+
+<section class="wrap sec" id="projects">
+  <h2>Projects</h2>
+  <div>
+    <article class="proj">
+      <header><h3>ClearBooks AI</h3><time>2026</time></header>
+      <p>A mobile app that lets small shop owners record sales from a photo or a voice note instead of typing. A multi-stage AI pipeline reads the input (Google Cloud Vision for OCR, Sarvam AI for speech-to-text) and Gemini turns it into clean records and business insights. It shows sales trends, demand forecasts and low-stock alerts, and takes Tamil and English voice input.</p>
+      <ul class="tags"><li>React Native</li><li>Expo</li><li>TypeScript</li><li>Python</li><li>FastAPI</li><li>Supabase</li><li>PostgreSQL</li><li>Gemini</li></ul>
+      <a class="repo" href="https://github.com/sarahcindy3006/ClearBooksAI" rel="noopener">View code on GitHub</a>
+    </article>
+    <article class="proj">
+      <header><h3>CloudClass</h3><time>2026</time></header>
+      <p>A multi-user virtual classroom where students create and join classrooms, chat in real time, track their learning progress and organise study materials. Built-in time tracking helps them monitor study sessions. I designed and built it on my own, with a Java Servlets backend, Apache Derby for data and JSON messages between client and server.</p>
+      <ul class="tags"><li>Java Servlets</li><li>Apache Derby</li><li>JSON</li></ul>
+    </article>
+    <article class="proj">
+      <header><h3>CampusConnect</h3><time>2026</time></header>
+      <p>A full-stack academic management platform with separate Admin and Student logins. Students submit assignments and see the academic calendar, including exam dates and schedule changes, update in real time. Staff use an admin dashboard to change exam dates, review submissions and book exam schedules.</p>
+      <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Firebase</li></ul>
+      <a class="repo" href="https://github.com/sarahcindy3006/Web-Application-01-Campus-Connect-" rel="noopener">View code on GitHub</a>
+    </article>
+    <article class="proj">
+      <header><h3>DeprecatedAI</h3><time>2026</time></header>
+      <p>A React web app that scans code for deprecated JavaScript and React patterns (var, .substr(), ReactDOM.render, componentWillMount) and reports each one with a suggested fix, a documentation link and a confidence score. Detection is rule-based, written in functional JavaScript. An issue board lets users accept, ignore or reopen issues, backed by Supabase and PostgreSQL with full CRUD.</p>
+      <ul class="tags"><li>React</li><li>Vite</li><li>Supabase</li><li>PostgreSQL</li><li>Context API</li></ul>
+      <a class="repo" href="https://github.com/sarahcindy3006/DeprecatedAI" rel="noopener">View code on GitHub</a>
+    </article>
+  </div>
+</section>
+
+<section class="wrap sec" id="experience">
+  <h2>Leadership</h2>
+  <ol class="tl">
+    <li><h3>Student Coordinator, Science Culturals</h3><div class="when">Stella Maris College (Autonomous), Jul 2026</div><p>Designed game formats and drafted the rules and regulations so competitive events ran fairly and smoothly.</p></li>
+    <li><h3>Hackathon Volunteer</h3><div class="when">Stella Maris College (Autonomous), Feb 2026</div><p>Designed the official invitation poster for the college hackathon with clear event details and an engaging visual theme.</p></li>
+    <li><h3>Class Representative</h3><div class="when">Stella Maris College (Autonomous), Jun 2024 to Apr 2025</div><p>Represented classmates, took their concerns to faculty, and supported class coordination and student engagement.</p></li>
+    <li><h3>Leadership Training Programme</h3><div class="when">Stella Maris College (Autonomous), Jun 2024 to Aug 2024</div><p>Led small groups to plan and present activities, building collaborative problem-solving and calm group discussion.</p></li>
+  </ol>
+</section>
+
+<section class="wrap sec" id="recognition">
+  <h2>Awards and certificates</h2>
+  <ul class="awards">
+    <li><div><b>Shyam Kothari Merit Scholarship</b><small>Merit-based, awarded for academic excellence</small></div><span>2024 to 2026</span></li>
+    <li><div><b>1st Place, Stage the Sale (Adzap)</b><small>Ethiraj College for Women</small></div><span>2025</span></li>
+    <li><div><b>Leadership Certificate</b><small>Stella Maris College (Autonomous)</small></div><span>2024</span></li>
+    <li><div><b>General Aptitude Training Certificate</b></div><span>2025</span></li>
+    <li><div><b>Representative, I Year</b><small>Stella Maris College (Autonomous)</small></div><span>2024 to 2025</span></li>
+  </ul>
+</section>
+
+<section class="wrap sec" id="contact">
+  <h2>Contact</h2>
+  <div>
+    <p class="prose" style="max-width:52ch;margin:0 0 1.4rem">I am graduating this year and looking for my first software role. Email is the quickest way to reach me.</p>
+    <a class="big" href="mailto:sarahcindy3006@gmail.com">sarahcindy3006@gmail.com</a>
+    <ul class="links">
+      <li><a href="tel:+919108645024">+91 91086 45024</a></li>
+      <li><a href="https://linkedin.com/in/sarah-cindralla-sheen" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/sarahcindy3006" rel="noopener">GitHub</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">Sarah Cindralla Sheen, 2026</div></footer>
+</body>
+</html>
